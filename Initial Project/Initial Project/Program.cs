@@ -24,9 +24,9 @@ class Program
         }
 
         long sum = 0;
-        foreach (int item in nums)
+        foreach (int num in nums)
         {
-            sum += item;
+            sum += num;
         }
         return (double)sum / nums.Length;
     }
